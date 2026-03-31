@@ -632,7 +632,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 
-margin-top: 40px;
 border-top: 1px solid;
 padding-top: 15px;
 font-size: 13px;
@@ -641,11 +640,6 @@ opacity: 0.8;
 
 /* CENTER TEXT */
 .footer-bottom .center{
-color: #FFD700;
-}
-
-/* LEFT FIX */
-.footer-bottom .left{
 color: #FFD700;
 }
 
