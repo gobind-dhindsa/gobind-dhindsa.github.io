@@ -628,12 +628,25 @@ cursor:pointer;
 
 /* BOTTOM */
 .footer-bottom{
-text-align:left;
-margin-top:30px;
-border-top:1px solid rgba(255,255,255,0.1);
-padding-top:15px;
-font-size:13px;
-opacity:0.8;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+margin-top: 40px;
+border-top: 1px solid;
+padding-top: 15px;
+font-size: 13px;
+opacity: 0.8;
+}
+
+/* CENTER TEXT */
+.footer-bottom .center{
+color: #FFD700;
+}
+
+/* LEFT FIX */
+.footer-bottom .left{
+color: #FFD700;
 }
 
 /* FOOTER REVEAL EFFECT */
