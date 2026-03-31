@@ -641,6 +641,9 @@ opacity: 0.8;
 /* CENTER TEXT */
 .footer-bottom .center{
 color: #FFD700;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
 }
 
 /* FOOTER REVEAL EFFECT */
